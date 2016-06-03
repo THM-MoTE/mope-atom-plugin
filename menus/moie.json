@@ -1,0 +1,26 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "moie",
+          "submenu": [
+            {
+              "label": "Connect to Server",
+              "command": "moie:connect"
+            },
+            {
+              "label": "Disconnect from Server",
+              "command": "moie:disconnect"
+            },
+            {
+              "label": "Compile Project",
+              "command": "moie:compileProject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

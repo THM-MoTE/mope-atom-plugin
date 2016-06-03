@@ -1,0 +1,19 @@
+{
+  "name": "moie",
+  "main": "./lib/moie",
+  "version": "0.0.0",
+  "description": "Mo|E Client",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "moie:connect"
+  },
+  "repository": "",
+  "license": "",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^2.0.0"
+  }
+}
