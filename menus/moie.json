@@ -17,6 +17,10 @@
             {
               "label": "Compile Project",
               "command": "moie:compileProject"
+            },
+            {
+              "label": "Stop Server",
+              "command": "moie:stopServer"
             }
           ]
         }
