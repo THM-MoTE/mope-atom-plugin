@@ -1,5 +1,8 @@
 {
   "atom-workspace": {
-    "ctrl-alt-b": "moie:compileProject"
+    "ctrl-cmd-b": "moie:compileProject",
+    "ctrl-cmd-c": "moie:connect",
+    "ctrl-cmd-a": "moie:disconnect",
+    "ctrl-cmd-s": "moie:stopServer"
   }
 }
