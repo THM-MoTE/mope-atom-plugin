@@ -7,13 +7,21 @@
 .moie {
 }
 
-.error-badge {
-  background-color: @background-color-error;
+.badge {
   color: black;
   font-weight: bold;
   padding-left: @component-padding;
   padding-right: @component-padding;
   border-radius: @component-border-radius;
+}
+.error-badge {
+  .badge();
+  background-color: @background-color-error;
+}
+
+.warning-badge {
+  .badge();
+  background-color: @background-color-warning;
 }
 .bold  {
   font-weight: bold;
