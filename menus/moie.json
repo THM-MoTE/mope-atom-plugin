@@ -19,6 +19,10 @@
               "command": "moie:compileProject"
             },
             {
+              "label": "Compile with script",
+              "command": "moie:compileScript"
+            },
+            {
               "label": "Stop Server",
               "command": "moie:stopServer"
             }
