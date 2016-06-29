@@ -16,15 +16,15 @@
             },
             {
               "label": "Compile Project",
-              "command": "moie:compileProject"
+              "command": "moie:compile-Project"
             },
             {
               "label": "Compile with script",
-              "command": "moie:compileScript"
+              "command": "moie:compile-Script"
             },
             {
               "label": "Stop Server",
-              "command": "moie:stopServer"
+              "command": "moie:stop-Server"
             }
           ]
         }
