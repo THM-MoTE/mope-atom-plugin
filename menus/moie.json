@@ -25,6 +25,9 @@
             {
               "label": "Stop Server",
               "command": "moie:stop-Server"
+            }, {
+              "label": "Check current model",
+              "command": "moie:checkmodel"
             }
           ]
         }
