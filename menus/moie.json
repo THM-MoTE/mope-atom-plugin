@@ -28,10 +28,6 @@
             }, {
               "label": "Check current model",
               "command": "moie:check-model"
-            },
-            {
-              "label": "Complete word below cursor",
-              "command": "moie:complete-word"
             }
           ]
         }
