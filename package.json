@@ -26,7 +26,12 @@
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
-        "2.0.0": "provide"
+        "2.0.0": "autocompleteProvider"
+      }
+    },
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "hyperclickProvider"
       }
     }
   }
