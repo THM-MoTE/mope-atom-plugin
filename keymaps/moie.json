@@ -1,8 +1,8 @@
 {
   "atom-workspace": {
-    "ctrl-cmd-b": "moie:compileProject",
-    "ctrl-cmd-c": "moie:connect",
-    "ctrl-cmd-a": "moie:disconnect",
-    "ctrl-cmd-s": "moie:stopServer"
+    "ctrl-shift-b": "moie:compile-Project",
+    "ctrl-shift-v": "moie:compile-Script",
+    "ctrl-alt-c": "moie:connect",
+    "ctrl-alt-d": "moie:open-documentation"
   }
 }
