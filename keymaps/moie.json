@@ -1,7 +1,7 @@
 {
   "atom-workspace": {
     "ctrl-shift-b": "moie:compile-Project",
-    "ctrl-shift-v": "moie:compile-Script",
+    "ctrl-shift-v": "moie:compile-with-Script",
     "ctrl-alt-c": "moie:connect",
     "ctrl-alt-d": "moie:open-documentation"
   }
