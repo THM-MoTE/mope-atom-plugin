@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "moie:connect"
+    "atom-workspace": ["moie:connect", "moie:generate-project.json"]
   },
   "repository": "",
   "license": "MIT",
