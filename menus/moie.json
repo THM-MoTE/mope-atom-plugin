@@ -8,26 +8,26 @@
           "submenu": [
             {
               "label": "Connect to Server",
-              "command": "moie:connect"
+              "command": "mope:connect"
             },
             {
               "label": "Disconnect from Server",
-              "command": "moie:disconnect"
+              "command": "mope:disconnect"
             },
             {
               "label": "Compile Project",
-              "command": "moie:compile-Project"
+              "command": "mope:compile-Project"
             },
             {
               "label": "Run script",
-              "command": "moie:run-Script"
+              "command": "mope:run-Script"
             },
             {
               "label": "Stop Server",
-              "command": "moie:stop-Server"
+              "command": "mope:stop-Server"
             }, {
               "label": "Check current model",
-              "command": "moie:check-model"
+              "command": "mope:check-model"
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "name": "Moie",
+  "name": "MoPE",
   "main": "./lib/moie",
   "version": "0.0.5",
   "description": "Mo|E Client",
@@ -7,8 +7,8 @@
   ],
   "activationCommands": {
     "atom-workspace": [
-      "moie:connect",
-      "moie:generate-project.json"
+      "mope:connect",
+      "mope:generate-project.json"
     ]
   },
   "repository": "",
