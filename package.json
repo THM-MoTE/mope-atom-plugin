@@ -1,10 +1,9 @@
 {
   "name": "MoPE",
   "main": "./lib/moie",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Atom client for Modelica | Editor",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": [
       "mope:connect",
