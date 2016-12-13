@@ -1,0 +1,18 @@
+{
+  "esversion": 6,
+  "devel": true,   // Allow developments statements e.g. `console.log();`.
+  "asi": true,
+  "node": true,
+  "browser": true,
+  "predef": [
+    "atom"
+  ],
+  "curly": false,   // Require {} for every new block or scope.
+  "eqeqeq": true,   // Require triple equals i.e. `===`.
+  "undef" : true,   // Require all non-global variables be declared before they are used.
+  "newcap": true,   // Require capitalization of all constructor functions e.g. `new F()`.
+  "noempty": true,  // Prohibit use of empty blocks.
+  "nomen": true,    // Prohibit use of initial or trailing underbars in names.
+  "trailing": true, // Prohibit trailing whitespaces.
+  "indent": 2       // Specify indentation spacing
+}
