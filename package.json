@@ -7,7 +7,8 @@
   "activationCommands": {
     "atom-workspace": [
       "mope:connect",
-      "mope:generate-project.json"
+      "mope:generate-project.json",
+      "mope:recent-Projects"
     ]
   },
   "repository": "https://github.com/THM-MoTE/mope-atom-plugin",
