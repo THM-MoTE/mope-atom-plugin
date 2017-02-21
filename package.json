@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "jquery": "^2.0.0",
-    "atom-package-deps": "~4.0.1"
+    "atom-package-deps": "~4.0.1",
+    "atom-space-pen-views": "^2.0.3"
   },
   "package-deps": [
     "hyperclick",
