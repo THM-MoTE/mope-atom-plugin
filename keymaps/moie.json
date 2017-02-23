@@ -4,6 +4,7 @@
     "ctrl-shift-v": "mope:run-Script",
     "ctrl-alt-c": "mope:connect",
     "ctrl-j": "mope:show-type",
-    "ctrl-shift-j": "mope:open-documentation"
+    "ctrl-shift-j": "mope:open-documentation",
+    "ctrl-3": "mope:goto-declaration"
   }
 }
