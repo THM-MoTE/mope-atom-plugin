@@ -22,7 +22,6 @@
     "atom-space-pen-views": "^2.0.3"
   },
   "package-deps": [
-    "hyperclick",
     "language-modelica"
   ],
   "consumedServices": {
@@ -36,11 +35,6 @@
     "autocomplete.provider": {
       "versions": {
         "2.0.0": "autocompleteProvider"
-      }
-    },
-    "hyperclick.provider": {
-      "versions": {
-        "0.0.0": "hyperclickProvider"
       }
     }
   }
