@@ -1,10 +1,10 @@
 {
   "atom-workspace": {
     "ctrl-shift-b": "mope:compile-Project",
-    "ctrl-shift-v": "mope:run-Script",
+    "ctrl-shift-r": "mope:run-Script",
     "ctrl-alt-c": "mope:connect",
     "ctrl-j": "mope:show-type",
-    "ctrl-shift-j": "mope:open-documentation",
-    "ctrl-3": "mope:goto-declaration"
+    "ctrl-3": "mope:goto-declaration",
+    "ctrl-4": "mope:open-documentation"
   }
 }
