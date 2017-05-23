@@ -4,6 +4,8 @@
 A client for the https://github.com/THM-MoTE/mope-server/[Modelica |
 Editor] service process.
 
+Modelica | Editor turns Atom into a Modelica IDE.
+
 [[installation]]
 == Installation
 
