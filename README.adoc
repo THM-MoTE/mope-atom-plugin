@@ -11,18 +11,19 @@ Documentation is available at https://thm-mote.github.io//projects/mope[thm-mote
 ## Quick Guide
 
 * Install this plugin
-  - Install https://atom.io/[Atom].
-  - In Atom, open the command palette with CTRL+SHIFT+P and find the entry "Settings View: Install Packages and Themes".
-  - In the settings window, search for "MoPE" to find the plugin and install it.
+** Install https://atom.io/[Atom].
+** In Atom, open the command palette with CTRL+SHIFT+P and find the entry "Settings View: Install Packages and Themes".
+** In the settings window, search for "MoPE" to find the plugin and install it.
 * Install the server
-  - From the command pallette (CTRL+SHIFT+P) use the command "Mope: Download Server jar". Alternatively you can manually download the latest release of the https://github.com/THM-MoTE/mope-server/releases/latest[Mo|E server] and put the JAR file in a directory where you can find it (e.g. `/usr/local/lib/`)
-  - Install a Java JRE or JDK and add the binary folder to the PATH variable, if the installation for your operating system does not already do so.
+** From the command pallette (CTRL+SHIFT+P) use the command "Mope: Download Server jar". Alternatively you can manually download the latest release of the https://github.com/THM-MoTE/mope-server/releases/latest[Mo|E server] and put the JAR file in a directory where you can find it (e.g. `/usr/local/lib/`)
+** Install a Java JRE or JDK and add the binary folder to the PATH variable, if the installation for your operating system does not already do so.
 * Adjust plugin settings
-  - Using the command pallette (CTRL+SHIFT+P) find "Settings View: Installed Packages" and click on the "Settings" Button for the "MoPE" package.
-  - Adjust settings where necessary. In particular, you should validate the "Mope Exec" path and enable the "Start Server" setting.
+** Using the command pallette (CTRL+SHIFT+P) find "Settings View: Installed Packages" and click on the "Settings" Button for the "MoPE" package.
+** Adjust settings where necessary. In particular, you should validate the "Mope Exec" path and enable the "Start Server" setting.
 * Create a Mo|E project
-  - From the Atom menu select File -> Add Project Folder... and select the folder where you store your models. Note that Mo|E currently only can handle one main folder per project.
-  - From the command pallette (CTRL+SHIFT+P) use the command "Mope: Generate Project.json"
-  - If necessary, adjust the "path" setting in the generated file `mope-project.json` in your main project folder. This setting should point to a path where your Modelica models and packages can be found.
-  - From the command palette (CTRL+SHIFT+P) use the command "Mope: Connect". If all your settings are correct, you should see the text "Mo|E - connected" in the lower left status bar in Atom.
-  - Mo|E will now automatically check your models for syntax errors on each save and you will have additional commands in the command palette such as "Mope: Check Model".
+** From the Atom menu select File -> Add Project Folder... and select the folder where you store your models. Note that Mo|E currently only can handle one main folder per project.
+** From the command pallette (CTRL+SHIFT+P) use the command "Mope: Generate Project.json"
+*** NOTE: This command is currently broken. However, the file `mope-project.json` is also generated when you first use the command "Mope: Connect" (see below).
+** If necessary, adjust the "path" setting in the generated file `mope-project.json` in your main project folder. This setting should point to a path where your Modelica models and packages can be found.
+** From the command palette (CTRL+SHIFT+P) use the command "Mope: Connect". If all your settings are correct, you should see the text "Mo|E - connected" in the lower left status bar in Atom.
+** Mo|E will now automatically check your models for syntax errors on each save and you will have additional commands in the command palette such as "Mope: Check Model".
